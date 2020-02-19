@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/build"
+        android:icon="@drawable/ic_build_black_24dp"
+        android:title="Build"/>
+
+    <item android:id="@+id/colorize"
+        android:icon="@drawable/ic_colorize_black_24dp"
+        android:title="Colorize"/>
+
+    <item android:id="@+id/content_paste"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        android:title="Content Paste"/>
+
+    <item android:id="@+id/others"
+        android:title="Others">
+
+        <menu>
+
+            <item android:id="@+id/place"
+                android:icon="@drawable/ic_place_black_24dp"
+                android:title="Place"/>
+
+            <item android:id="@+id/share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share"/>
+
+        </menu>
+
+    </item>
+
+
+</menu>
